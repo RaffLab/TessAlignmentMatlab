@@ -19,7 +19,7 @@ function generateSDSEMTNGraphsUpDownEVT(graphName,downStairsData,upStairsData,ev
 
     %makes sure we have a colour maps selected for the data
     if exist('shadingColourMap','var')
-        shadingColourMat = shadingColourMap(nOfGrad);
+        shadingColourMat = shadingColourMap;
     else
         shadingColourMat = copper(nOfGrad);
     end
